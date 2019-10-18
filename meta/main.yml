@@ -1,0 +1,10 @@
+dependencies:
+
+  - role: "geerlingguy.docker"
+    become: yes
+    vars:
+      docker_users:
+        - "{{ ansible_user_id }}"
+
+  - role: "koichirok.google_chrome"
+    become: yes

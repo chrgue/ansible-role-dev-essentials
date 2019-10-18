@@ -1,0 +1,10 @@
+
+essential_packages:
+  - git
+  - wget
+  - curl
+  - xclip
+  - httpcode
+  - httpie
+  - silversearcher-ag
+  - apache2-utils
