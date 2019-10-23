@@ -1,0 +1,14 @@
+#!/usr/bin/ansible-playbook
+
+---
+
+- hosts: localhost
+  connection: local
+  tasks:
+    - name: Install Galaxy Role
+      shell: "ansible-galaxy install chrgue.development_essentials"
+
+- hosts: localhost
+  connection: local
+  roles:
+  - chrgue.development_essentials
