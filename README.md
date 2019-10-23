@@ -12,7 +12,7 @@ Include the following modules:
 
 Install
 
-    $ ansible-galaxy install git+git@github.com:chrgue/ansible-role-dev-essentials.git
+    $ ansible-galaxy install chrgue.development-essentials
 
 
 Playbook example
@@ -21,7 +21,7 @@ Playbook example
       hosts: all
       connection: local
       roles:
-        - role: cgu_dev_essentials
+        - role: chr.development-essentials
           become: yes
         
 

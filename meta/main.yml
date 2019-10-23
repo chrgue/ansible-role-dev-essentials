@@ -1,5 +1,7 @@
 galaxy_info:
-  role_name: cgu_dev_essentials
+  role_name: development-essentials
+  author: Christian Günther
+  description: Installs development essentials
 
 dependencies:
 
