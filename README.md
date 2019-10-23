@@ -1,8 +1,7 @@
 # Development Essentials
 
 
-
-Include the following modules:
+Includes the following modules:
 
 * Google Chrome - Thanks [koichirok][1]
 * Docker - Thanks [geerlingguy][2]
@@ -10,12 +9,12 @@ Include the following modules:
 
 
 
-Install:
+###Install:
 
     $ ansible-galaxy install chrgue.development_essentials
 
 
-Playbook example:
+###Playbook example:
 
     - name: Setup development essentials
       hosts: all
@@ -25,7 +24,7 @@ Playbook example:
           become: yes
         
 
-Ad-Hoc:
+###Ad-Hoc:
 
     $ sudo apt install wget
     $ bash <(wget -qO- https://raw.githubusercontent.com/chrgue/ansible-role-dev-essentials/master/adhoc.sh)
