@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: development-essentials
+  role_name: development_essentials
   author: Christian Günther
   description: Installs development essentials
   version: 0.0.1
