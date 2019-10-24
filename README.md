@@ -14,6 +14,8 @@ Includes the following:
   - [httpie][4]- user friendly curl
   - [silversearcher-ag][5] - A code-searching tool
   - apache2-utils - package which includes [ApacheBench][6]
+  - [kafkacat][7] - Generic command line non-JVM Apache Kafka producer and consumer
+  - [jq][8] - command-line JSON processor
 
 
 ## Quick Start
@@ -60,3 +62,5 @@ First make sure you have ansible installed
 [4]: https://httpie.org/
 [5]: https://github.com/ggreer/the_silver_searcher
 [6]: https://httpd.apache.org/docs/2.4/programs/ab.html
+[7]: https://github.com/edenhill/kafkacat
+[8]: https://stedolan.github.io/jq/

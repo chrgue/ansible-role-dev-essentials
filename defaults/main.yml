@@ -6,3 +6,5 @@ essential_packages:
   - httpie
   - silversearcher-ag
   - apache2-utils
+  - kafkacat
+  - jq
