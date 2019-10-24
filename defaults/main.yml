@@ -1,6 +1,5 @@
 essential_packages:
   - git
-  - wget
   - curl
   - xclip
   - httpcode
