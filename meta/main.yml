@@ -3,6 +3,8 @@ galaxy_info:
   author: Christian Günther
   description: Installs development essentials
   version: 0.0.1
+  platforms:
+    - name: Ubuntu
   galaxy_tags:
     - development
 dependencies:
