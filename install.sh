@@ -9,7 +9,7 @@ sudo sh -c '
   apt install -y ansible
 ' &&
 # install role
-ansible-galaxy install ${ROLE} &&
+ansible-galaxy install ${ROLE} --force &&
 # execute role
 ansible-playbook "$@" /dev/stdin <<END
 ---
