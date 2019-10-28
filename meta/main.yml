@@ -1,7 +1,7 @@
 galaxy_info:
   role_name: development_essentials
   author: Christian Günther
-  description: Installs development essentials
+  description: Installs essentials command line tools
   version: 0.0.1
   platforms:
     - name: Ubuntu
